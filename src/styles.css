@@ -1,0 +1,61 @@
+.col{
+  padding: 10px;
+}
+
+footer h2{
+  color:rgb(146, 2, 26);
+}
+
+h1{
+  color: purple;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-left: 10px;
+  text-align: center;
+}
+.card a{
+  background-color: rgb(250, 26, 63);
+}
+.card-title{
+margin:20px;
+}
+.card .card-body h2{
+color: rgb(241, 76, 103);
+}
+
+
+body{
+  background-color:rgb(250, 168, 182);
+}
+
+.card h2{
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.card h3{
+  padding:10px;
+}
+
+
+.navbar{
+  background-color:rgb(196, 158, 234);
+  padding: 20px;
+}
+
+.btn {
+  border-color: rgb(241, 76, 103);
+background-color: rgb(241, 76, 103); 
+}
+
+.btn:hover{
+  background-color: rgb(134, 62, 229);;
+}
+
+footer{ 
+background-color: rgb(196, 158, 234);
+padding: 20px;
+}
+.card h1{
+  color: rgba(170, 44, 243, 0.687);
+}

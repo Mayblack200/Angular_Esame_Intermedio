@@ -1,0 +1,19 @@
+<h1>Super Drinks with "A"</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-md-4" *ngFor="let drink of drinks">
+            <div class="card" >
+                <!-- src tra parentesi perchè una è diverso dall'altro -->
+                <img [src]="drink.strDrinkThumb" class="card-img-top" alt="drink.strDrinkThumb" >
+                <div class="card-body ">
+                    <h5 class="card-title"> {{ drink.strDrink }} </h5>
+                    <p class="card-text">{{ drink.strAlcoholic}}</p>
+                    <!-- creare il pulsante che reindirizza sul altra pagina -->
+                    <a routerLink="/dettaglio/11000" class="btn btn-secondary">Details</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

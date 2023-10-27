@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="row justify-content-center" >
+        <div class="col col-md-9">
+            <div class="card">
+               <div class="card-title"> <h1>{{ drink.strDrink }}</h1>
+            <!-- serve per rimandare ad un'altra pagina -->
+            <button routerLink="/cards" class="btn btn-secondary">home</button>
+            </div>
+                <img class="img-fluid" [src]="drink.strDrinkThumb" alt="foto Mojito">
+                <div class="card-body">
+                    <h2>Ingredienti</h2>
+
+                    <h3 *ngIf="drink.strIngredient1 != null">{{drink.strIngredient1}}</h3>
+                    <h3 *ngIf="drink.strIngredient2 != null">{{drink.strIngredient2}}</h3>
+                    <h3 *ngIf="drink.strIngredient3 != null">{{drink.strIngredient3}}</h3>
+                    <h3 *ngIf="drink.strIngredient4 != null">{{drink.strIngredient4}}</h3>
+                    <h3 *ngIf="drink.strIngredient5 != null">{{drink.strIngredient5}}</h3>
+                    <h3 *ngIf="drink.strIngredient6 != null">{{drink.strIngredient6}}</h3>
+                    <h3 *ngIf="drink.strIngredient7 != null">{{drink.strIngredient7}}</h3>
+                    <h3 *ngIf="drink.strIngredient8 != null">{{drink.strIngredient8}}</h3>
+                    <h3 *ngIf="drink.strIngredient9 !== null">{{drink.strIngredient9}}</h3>
+                    <h3 *ngIf="drink.strIngredient10 != null">{{drink.strIngredient10}}</h3>
+                    <h3 *ngIf="drink.strIngredient11 != null">{{drink.strIngredient11}}</h3>
+                    <h3 *ngIf="drink.strIngredient12 != null">{{drink.strIngredient12}}</h3>
+                    <h3 *ngIf="drink.strIngredient13 != null">{{drink.strIngredient13}}</h3>
+                    <h3 *ngIf="drink.strIngredient14 != null">{{drink.strIngredient14}}</h3>
+                    <h3 *ngIf="drink.strIngredient15 != null">{{drink.strIngredient15}}</h3>
+                    
+                    <!-- serve per rimandare ad un'altra pagina -->
+                    <button routerLink="/cards" class="btn btn-secondary">home</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
